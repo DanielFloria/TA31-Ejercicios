@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    align-items: stretch;
+}
+
+.sidebar{
+    display:flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 30vw;
+}
+
+.sidebar div {
+    height: 120px;
+    width: 160px;
+}
+
+#visor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+}
+
+#foto1 {
+    background-image: url("resources/foto1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#foto2 {
+    background-image: url("resources/foto2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#foto3 {
+    background-image: url("resources/foto3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#foto4 {
+    background-image: url("resources/foto4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#foto5 {
+    background-image: url("resources/foto5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#foto6 {
+    background-image: url("resources/foto6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#foto7 {
+    background-image: url("resources/foto7.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#foto8 {
+    background-image: url("resources/foto8.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

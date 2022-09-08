@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="codigo.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio 14</title>
+</head>
+<body>
+    
+        <div id="calculadora" class="container">
+          <div id="caja-operacion" class="row">
+            <div class="caja"><input class="no-border shadow-none" type="text" id="operacion_entera" value="0" disabled=""></div>
+          </div>
+          <div id="caja-resultado" class="row">
+            <div class="caja"><input class="no-border shadow-none" type="text" id="numero_actual" value="0" disabled=""></div>
+          </div>
+          <div class="row">
+            <input type="button" value="C" class="operacion" onclick="clickC()">
+            <input type="button" value="CE" class="operacion" onclick="clickCE()">
+            <input type="button" value="DEL" class="operacion" onclick="clickDel()">
+            <input type="button" value="/" class="operacion" onclick="clickOperacion(' / ')">
+          </div>
+          <div class="row">
+            <input type="button" value="9" class="numero" onclick="clickNumero('9')">
+            <input type="button" value="8" class="numero" onclick="clickNumero('8')">
+            <input type="button" value="7" class="numero" onclick="clickNumero('7')">
+            <input type="button" value="x" class="operacion" onclick="clickOperacion(' * ')">
+          </div>
+          <div class="row">
+            <input type="button" value="6" class="numero" onclick="clickNumero('6')">
+            <input type="button" value="5" class="numero" onclick="clickNumero('5')">
+            <input type="button" value="4" class="numero" onclick="clickNumero('4')">
+            <input type="button" value="-" class="operacion" onclick="clickOperacion(' - ')">
+          </div>
+          <div class="row">
+            <input type="button" value="3" class="numero" onclick="clickNumero('3')">
+            <input type="button" value="2" class="numero" onclick="clickNumero('2')">
+            <input type="button" value="1" class="numero" onclick="clickNumero('1')">
+            <input type="button" value="+" class="operacion" onclick="clickOperacion(' + ')">
+          </div>
+          <div class="row">
+            <input type="button" value="." class="numero" onclick="clickPunto()">
+            <input type="button" value="0" class="numero" onclick="clickNumero('0')">
+            <input type="button" value="+/-" class="numero" onclick="clickPositivoNegativo()">
+            <input type="button" value="=" class="operacion" onclick="clickIgual()">
+          </div>
+        </div>
+</body>
+</html>
